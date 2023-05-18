@@ -19,7 +19,7 @@ int main()
         fin.close();
         ofstream fout("inhut.txt");
         fout << x;
-
+        fout.close();
 
     system("pause>0");
 }
