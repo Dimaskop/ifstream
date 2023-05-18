@@ -5,7 +5,8 @@ int main()
 {
    
     int x;
-    ifstream fin  ("input.txt");
+    ifstream fin;
+     fin. open  ("input.txt");
     if (!fin.is_open()) {
         x = -1;
     }
