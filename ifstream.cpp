@@ -15,8 +15,12 @@ int main()
         fin >> x;
     }
         fin >> x;
-        cout << x;
+       
         fin.close();
+        ofstream fout("inhut.txt");
+        fout << x;
+
+
     system("pause>0");
 }
 
